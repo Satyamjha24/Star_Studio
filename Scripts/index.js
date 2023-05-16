@@ -79,8 +79,9 @@ buton.addEventListener("change", (e) => {
             if (!logoIsUploading && logoImage) {
                 display_image.style.display = "block"
                 img.setAttribute("src", logoImage);
-                upload_btn.textContent = `${file.name}`
-                upload_btn.style.fontSize = "30px"
+                upload_btn.textContent = 'LOGO UPLOADED'
+                upload_btn.style.fontSize = "21px"
+                upload_btn.style.fontWeight = "bold"
                 img.setAttribute('class', '');
                 upload_svg.src = "./images/upload_icon.svg"
                 upload_svg.setAttribute('class', '');
